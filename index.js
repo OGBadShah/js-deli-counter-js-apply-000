@@ -20,6 +20,8 @@ function nowServing(katzDeliLine){
 
 
 
+
+
 function currentLine(katzDeliLine) {
   var emptyArray = []
   var string = "The line is currently: "
@@ -33,4 +35,3 @@ function currentLine(katzDeliLine) {
   var people = emptyArray.join(", ")
   return string += people
 }
- // dont put a for loop in an else block
